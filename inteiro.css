@@ -6,6 +6,11 @@ body, html {
     overflow: hidden;
 }
 
+ h3{
+    color: #000000;
+
+} 
+
 
 .dropdown {
     position: relative;
@@ -38,11 +43,14 @@ body, html {
     overflow: auto;
     z-index: 1;
     
+    
 }
 
 .dropdown-content .car-item {
     display: inline-block;
-    margin: 5%;
+    margin: 3% 3% 3% 5%;
+    justify-content: center;
+    padding: 3px;
     text-align: center;
     color: white; 
     
@@ -85,4 +93,9 @@ body, html {
     background-color:#eeeeee;
     border-radius: 5px;
     transform: scale(1.0)
+}
+
+.imagem-drop{
+    width: 18%;
+        
 }
